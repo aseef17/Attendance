@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/_5sdp"
+    android:paddingEnd="@dimen/_5sdp"
+    android:paddingStart="@dimen/_5sdp"
+    android:paddingTop="@dimen/_5sdp">
+
+    <TextView
+        android:id="@+id/subject_name"
+        android:layout_width="@dimen/_190sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:fontFamily="@font/nunito_sans_semibold"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_18sdp"
+        tools:text="Python" />
+
+    <TextView
+        android:id="@+id/subject_faculty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subject_name"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:textColor="#555555"
+        android:textSize="@dimen/_14sdp"
+        tools:text="Vinutha" />
+
+    <TextView
+        android:id="@+id/subject_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_centerVertical="true"
+        android:textColor="#444444"
+        android:textSize="@dimen/_18sdp"
+        tools:text="8:30 - 9:20" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_below="@id/subject_faculty"
+        android:background="#999999" />
+
+
+</RelativeLayout>

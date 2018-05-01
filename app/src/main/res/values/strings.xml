@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">BMSIT</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_about">About</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="category_attendance">ATTENDANCE</string>
+    <string name="catergory_class">CLASS SUMMARY</string>
+    <string name="submit">submit</string>
+
+    <string name="branch_prompt">Choose a branch</string>
+    <string name="semester_prompt">Choose a semester</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <!-- Text to display in the list when there are no students [CHAR LIMIT=NONE] -->
+    <string name="no_students">Branch and semester not found</string>
+    <string name="wrong_id">INVALID ID NUMBER</string>
+
+    <string-array name="branch_arrays">
+        <item>ISE</item>
+        <item>CSE</item>
+        <item>CV</item>
+        <item>EC</item>
+        <item>EEE</item>
+        <item>TCE</item>
+    </string-array>
+    <string-array name="semester_arrays">
+        <item>I</item>
+        <item>II</item>
+        <item>III</item>
+        <item>IV</item>
+        <item>V</item>
+        <item>VI</item>
+        <item>VII</item>
+        <item>VIII</item>
+    </string-array>
+
+    <string name="develpoed">THE PROJECT IS DEVELOPED BY</string>
+    <string name="member_1">SHREYAS C.R(1BY15IS054)</string>
+    <string name="member_2">LIQA ARZEEN(1BY15IS030)</string>
+    <string name="member_3">S.TEJASWINI(1BY15IS046)</string>
+    <string name="member_4">NAMRATHA M.R(1BY15IS033)</string>
+    <string name="member_5">ASEEF KHAN(1BY15IS036)</string>
+    <string name="guidance">under the guidance of</string>
+    <string name="teacher">VEENA N</string>
+    <string name="ise">Department of I.S.E,BMSIT&amp;M</string>
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tue</string>
+    <string name="wednesday">Wed</string>
+    <string name="thursday">Thu</string>
+    <string name="friday">Fri</string>
+    <string name="saturday">Sat</string>
+</resources>
